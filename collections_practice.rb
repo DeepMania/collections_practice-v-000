@@ -47,12 +47,13 @@ a_array
 end
 
 def sum_array(array)
-
+ array.inject(0) { |x, y| x + y }
 end
 
 def add_s(array)
 
- array.each_with_index.collect{|element, index| }
+ array.each_with_index.collect {|element, index| 
+unless element[2]  }
 
 
 end
